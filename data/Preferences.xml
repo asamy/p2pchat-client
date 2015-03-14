@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<accounts>
+  <account>
+    <user />
+    <port>0</port>
+    <remoteport>5557</remoteport>
+    <trayicon>false</trayicon>
+    <acceptmessage>false</acceptmessage>
+  </account>
+</accounts>
