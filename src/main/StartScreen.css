@@ -1,0 +1,93 @@
+.search-box .text-field {
+    -fx-background-color: white;
+    -fx-background-insets: 1;
+    -fx-background-radius: 15;
+    -fx-padding: -9 5 -11 0;
+    -fx-border-image-source: url("file:resources/search-box.png");
+    -fx-border-image-slice: 12 12 12 22 fill;
+    -fx-border-image-width: 12 12 12 22;
+    -fx-border-image-repeat: stretch; 
+    -fx-font-size: 13px;
+    -fx-prompt-text-fill: grey;
+}
+.search-box .text-field:focused {
+    -fx-background-color: -fx-focus-color, white;
+    -fx-background-insets: -1.4, 1;
+    -fx-background-radius: 14.4;
+}
+.search-box .button {
+    -fx-background-color: null;
+    -fx-background-image: url("file:resources/search-clear.png");
+}
+.search-box .button:hover {
+    -fx-background-image: url("file:resources/search-clear-over.png");
+}
+
+
+#buttonAddFriend {
+	   -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Arial";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 3 3 3 3;
+	
+}
+
+
+#buttonAddFriend:hover{
+	-fx-background-color: linear-gradient(#2A5058, #2A5058);
+}
+
+#buttonFriendRequests {
+	-fx-background-color: transparent ;
+}
+
+#table #status {
+    -fx-alignment: CENTER;
+}
+
+
+#table {
+	-fx-border-color: black ;
+	
+}
+
+.background {
+    -fx-background-repeat: repeat;
+	-fx-background-color:
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+}
+
+
+
+.menu-bar {
+	-fx-background-image: url("file:resources/CoarseGrid.png"); 
+    -fx-background-repeat: repeat;
+	-fx-background-color:
+        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50% 0%, radius 100%, rgba(114,131,148,0.9), rgba(255,255,255,0));
+}
+.menu { 
+	
+}
+.menu:showing { 
+	
+}
+.menu .label { 
+	-fx-text-fill: rgb(255, 255, 255, 0.4);
+}
+.menu:showing .label {
+	-fx-text-fill: black ;
+}
+
